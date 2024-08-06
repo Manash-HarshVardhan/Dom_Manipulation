@@ -1,0 +1,62 @@
+.body{
+    
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.bodyh1{
+    text-align: center;
+}
+.parent{
+    padding: 20px;
+    border-radius: 10px;
+}
+.dyntag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    /*  */
+    
+}
+.tag-chip{
+    background-color: #E5E7EB;
+    width: fit-content;
+    padding: 5px;
+    color: gray;
+    border-radius: 10px;
+}
+
+.remove-btn{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 30%;
+}
+
+.items--input{
+    width: 30vw;
+    height: 25px;
+    border: none;
+    font-size: 18px;
+}
+.items--input::placeholder{
+    font-size: 18px;
+}
+.items--input:focus{
+    outline: none;
+}
+.items--btn1{
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: rgb(44, 234, 255);
+    color: white;
+    font-weight: 600;
+}
+.bordertest{
+    box-shadow: 1px 1px 3px 3px rgb(55, 55, 55);
+}
