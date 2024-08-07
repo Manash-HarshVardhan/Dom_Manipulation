@@ -1,0 +1,7 @@
+.dropitem{
+    padding: 8px;
+    cursor: pointer;
+}
+.dropitem:hover{
+    background: rgb(214, 213, 213);
+}
